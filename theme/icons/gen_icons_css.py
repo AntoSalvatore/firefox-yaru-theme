@@ -20,8 +20,8 @@ from urllib.parse import quote
 ABS_PATH = os.path.dirname(os.path.abspath(__file__))
 ICONS_FILE = os.path.join(ABS_PATH, "icons.yml")
 CSS_FILE = os.path.join(ABS_PATH, "icons.css")
-ICONS_REPO_URL = "https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git"
-ICONS_REPO_PATH = os.path.join(ABS_PATH, "adwaita-icon-theme")
+ICONS_REPO_URL = "https://github.com/AntoSalvatore/yaru-restricted-icons.git"
+ICONS_REPO_PATH = os.path.join(ABS_PATH, "yaru-restricted-icons")
 ICONS_KIT_REPO_URL = "https://gitlab.gnome.org/Teams/Design/icon-development-kit-www.git"
 ICONS_KIT_REPO_PATH = os.path.join(ABS_PATH, "icon-development-kit-www")
 
@@ -40,7 +40,7 @@ def main():
     # Get icons name to path mappings
     icon_paths = {
         **lookup_icons(f"{ICONS_KIT_REPO_PATH}/img/symbolic"),  # Extra GNOME icons kit
-        **lookup_icons(f"{ICONS_REPO_PATH}/Adwaita/symbolic"),  # Core GNOME icons
+        **lookup_icons(f"{ICONS_REPO_PATH}/Yaru/scalable"),  # Core Yaru icons
         **lookup_icons(f"{ABS_PATH}/custom", False)  # Custom icons
     }
 
