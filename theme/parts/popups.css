@@ -7,6 +7,7 @@ menupopup {
 	appearance: none !important;	
 	color: var(--gnome-window-color) !important;
 	padding: var(--gnome-menu-padding) !important;
+	margin: calc(-3 * var(--panel-shadow-margin)) !important;
 }
 
 menucaption {

@@ -1,16 +1,14 @@
 <img src="icon.svg" alt="Firefox GNOME theme" width="128" align="left"/>
 
-# Firefox GNOME theme
+# Firefox Yaru theme for Ubuntu
 
 [![GitHub](https://img.shields.io/github/license/rafaelmardojai/firefox-gnome-theme.svg)](https://github.com/rafaelmardojai/firefox-gnome-theme/blob/master/LICENSE)
-[![Donate](https://img.shields.io/badge/PayPal-Donate-gray.svg?style=flat&logo=paypal&colorA=0071bb&logoColor=fff)](https://paypal.me/RafaelMardojaiCM)
-[![Liberapay](https://img.shields.io/liberapay/receives/rafaelmardojai.svg?logo=liberapay)](https://liberapay.com/rafaelmardojai/donate)
 
 <br>
 
-**A GNOME theme for Firefox**
+**A Yaru theme for Firefox and Ubuntu**
 
-This theme follows latest GNOME Adwaita style.
+This theme follows latest Ubuntu Yaru style.
 
 > [!WARNING]
 > ### Disclaimer:
@@ -24,26 +22,15 @@ This theme follows latest GNOME Adwaita style.
 
 This is a bunch of CSS code to make Firefox look closer to GNOME's native apps.
 
-### Getting in Touch
-
-Matrix room: [#firefox-gnome-theme:matrix.org](https://matrix.to/#/#firefox-gnome-theme:matrix.org)
-
 ### Firefox versions support
 
-The `master` branch of this repo supports the current Firefox stable release `137`.
+The `master` branch of this repo supports the current Firefox stable release.
 
 Theme versions compatible with older Firefox releases are preserved as git tags.
 
-We also have the `beta` and `nightly` branches for fixes only applicable to the current Firefox beta and nightly versions.
+I also have the `esr` branches for fixes only applicable to the current Firefox ESR versions.
 
 # Installation
-
-The most friendly way to get this theme is using the **Add Water** app.
-
-<a href='https://flathub.org/apps/dev.qwery.AddWater'>
-    <img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
-</a>
-
 ## One command install with curl
 
 To install this theme, you can run this command, which uses *curl* to download a script that will also download the latest released version of the theme (not the master version) and run the **auto-install** script for you.
@@ -69,8 +56,8 @@ First you need to grab a fresh copy of the theme repository by cloning it with g
 	```
 2. Checkout a git branch or tag if needed, otherwise use `master` and ignore this step.
 	```sh
-	git checkout beta # Set beta branch
-	git checkout v78.1 # Set v78.1 tag
+	git checkout esr140 # Set ESR branch
+	git checkout esr # Set esr tag
 	```
 
 This theme provides two installation scripts in addition to the curled one.
@@ -119,11 +106,6 @@ git checkout v$(firefox --version | cut -d ' ' -f 3 | cut -d '.' -f 1) # Using F
 </details>
 
 ## Package managers
-
-### Arch Linux
-
-1. Install the [AUR package](https://aur.archlinux.org/packages/firefox-gnome-theme) `firefox-gnome-theme` 
-2. Follow the instructions at `cat /usr/share/doc/firefox-gnome-theme/INSTALL.md`
 
 ## Manual installation
 <details>

@@ -228,3 +228,30 @@ toolbarspring {
 		padding-inline:  var(--urlbar-icon-padding) !important;
 	}
 }
+
+/* Search Mode indicator */
+#urlbar-search-mode-indicator-close, #searchmode-switcher-close {
+  background-image: -moz-symbolic-icon(window-close-symbolic) !important;
+  background-size: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+#searchmode-switcher-chicklet {
+  background-color: var(--gnome-button-active-background) !important;
+  border-radius: 6px !important;
+}
+#searchmode-switcher-title {
+  margin-inline-start: 4px !important;
+}
+#urlbar-searchmode-switcher {
+  background: var(--gnome-button-active-background) !important;
+}
+#searchmode-switcher-icon {
+  margin-inline-end: 9px !important;
+}
+#searchmode-switcher-dropmarker {
+	margin-inline-end: 4px !important;
+	margin-inline-start: 4px !important;
+}

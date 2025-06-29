@@ -83,5 +83,10 @@
 		  --gnome-tabbar-tab-active-background: #272e41; /* Hardcoded color */
 			}
 		}
+		
+		/* Home and New Page */
+		--gnome-homepage-searchbar-background: #313131;
+		--gnome-homepage-searchbar-border-color: #939393;
+		
 	}
 }

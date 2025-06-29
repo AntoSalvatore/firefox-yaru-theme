@@ -1,0 +1,75 @@
+/* Logo and Wordmark */
+
+.logo-and-wordmark {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+.outer-wrapper {
+  align-content: center !important;
+  justify-content: center !important;
+}
+
+main {
+  margin: 0 !important;
+}
+
+.layout-variant-a .ds-outer-wrapper-breakpoint-override main, .layout-variant-b .ds-outer-wrapper-breakpoint-override main {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+main.newtab-main {
+  min-width: unset !important;
+}
+
+.search-wrapper .search-inner-wrapper {
+  align-content: center !important;
+  justify-content: center !important;
+  margin-top: -85px !important;
+}
+
+.logo-and-wordmark .logo {
+  height: 56px !important;
+  width: 56px !important;
+  background-size: 56px !important;
+}
+
+.logo-and-wordmark .wordmark {
+  background-size: 91px !important;
+  height: 56px !important;
+  margin-inline-start: 12px !important;
+  width: 91px !important;
+}
+
+/* Searchbar */
+
+.layout-variant-a .ds-outer-wrapper-breakpoint-override main, .layout-variant-b .ds-outer-wrapper-breakpoint-override main {
+  height: 100% !important;
+}
+
+.search-wrapper .search-handoff-button, .search-wrapper input {
+  background: var (--gnome-homepage-searchbar-bg) !important;
+  background-size: 16px !important;
+  padding-inline-start: 48px !important;
+  border: 0px solid transparent !important;
+  border-radius: 0px !important;
+  border-bottom: 1.5px solid var(--gnome-homepage-searchbar-border-color) !important;
+}
+
+.search-wrapper .search-inner-wrapper {
+  min-height: 35px !important;
+}
+
+.search-handoff-button {
+  font-size: 1rem !important;
+}
+
+.search-handoff-button .fake-editable {
+  height: 35px !important;
+}
+
+.search-wrapper:active .search-handoff-button, .search-wrapper input:focus {
+  max-height: 35px !important;
+}
+
