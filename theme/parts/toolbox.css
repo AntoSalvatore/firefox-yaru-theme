@@ -122,6 +122,11 @@ link[href="chrome://global/content/elements/moz-message-bar.css"] ~ .container {
 	}
 }
 
+/* Move Menubar toolbar under NavBar */
+#navigator-toolbox #toolbar-menubar {
+	order: 1;
+}
+
 /* Bookmarks */
 #PersonalToolbar {
 	padding: var(--gnome-toolbar-padding) !important;

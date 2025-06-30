@@ -454,7 +454,7 @@ button.close::before {
 	}
 	/* Read mode */
 	#reader-mode-button > .urlbar-icon {
-		list-style-image: var(--gnome-icon-newspaper-symbolic) !important;
+		list-style-image: var(--gnome-icon-ephy-reader-mode-symbolic) !important;
 	}
 	#reader-mode-button[readeractive] > .urlbar-icon {
 		fill: var(--gnome-accent) !important;
