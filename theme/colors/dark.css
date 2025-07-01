@@ -85,6 +85,8 @@
 		}
 		
 		/* Home and New Page */
+		--yaru-homepage-bg: #111;
+		--yaru-banner-bg: #262626;
 		--gnome-homepage-searchbar-background: #313131;
 		--gnome-homepage-searchbar-border-color: #939393;
 		
