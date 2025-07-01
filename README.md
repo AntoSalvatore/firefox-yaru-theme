@@ -274,6 +274,10 @@ Optional features can be enabled by creating new `boolean` preferences in `about
 
 	 Show the bookmarks bar while in fullscreen.
 
+- **Colored close button** `yaruTheme.coloredCloseButton`
+
+	Colored close button with accent color like old Ubuntu/Yaru theme.
+
 ### Extensions support
 
 We also have optional features to enable support for some Firefox extensions.
@@ -311,6 +315,12 @@ See upstream [bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1408360).
 
 ### Icons color broken with System icons
 Icons might appear black where they should be white on some systems. I have no idea why, but you can adjust them directly in the `system-icons.css` file, look for `--gnome-icons-hack-filter` & `--gnome-window-icons-hack-filter` vars and play with css filters.
+
+### Colored close button doesn't work:
+1. Go to the `about:config` page
+2. Type `layout.css.color-mix.enabled`
+3. Set it as a `boolean` and click on the add button
+4. Now restart Firefox.
 
 ## Development
 
