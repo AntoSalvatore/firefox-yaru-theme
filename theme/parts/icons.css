@@ -161,6 +161,13 @@ button.close::before {
 	.protections-popup-category::after {
 		content: var(--gnome-icon-go-next-symbolic) !important;
 	}
+	menupopup > menu::after{
+		content: "" !important;
+		background: var(--gnome-icon-go-next-symbolic) !important;
+		background-size: contain;
+		width: 16px !important;
+		height: 16px !important;
+	}
 
 	/* Popovers subview back button */
 	.subviewbutton-back {
