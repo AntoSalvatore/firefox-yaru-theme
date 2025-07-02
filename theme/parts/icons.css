@@ -207,12 +207,77 @@ button.close::before {
 	#urlbar:not(.searchButton) > .urlbar-input-container > #identity-box[pageproxystate="invalid"] > #identity-icon,
 	.searchbar-search-icon,
 	.textbox-search-sign {
-		list-style-image: url(../icons/edit-find-symbolic.svg) !important;
+		list-style-image: var(--gnome-icon-edit-find-symbolic) !important;
 	}
 	.textbox-search-sign {
 		margin: 3px 0;
 		max-height: 16px !important;
 		width: 16px !important;
+	}
+
+	/* Search mode switcher - Search icon */
+	#searchmode-switcher-icon {
+		list-style-image: var(--gnome-icon-edit-find-symbolic) !important;
+	}
+
+	/* Search mode switcher - Bookmarks icon */
+	#search-button-bookmarks[image="chrome://browser/skin/bookmark.svg"], #search-button-bookmarks[image="chrome://browser/skin/bookmark.svg"]:not([disabled="true"])[_moz-menuactive="true"] {
+		background-image: var(--gnome-icon-starred-symbolic) !important;
+		background-repeat: no-repeat !important;
+		background-position: 11px center !important;
+		background-size: 16px !important;
+		content: "";
+	}
+	#search-button-bookmarks .menu-icon {
+		fill: transparent !important;
+	}
+
+	/* Search mode switcher - Tabs icon */
+	#search-button-tabs[image="chrome://browser/skin/tabs.svg"], #search-button-tabs[image="chrome://browser/skin/tabs.svg"]:not([disabled="true"])[_moz-menuactive="true"] {
+		background-image: var(--gnome-icon-tab-symbolic) !important;
+		background-repeat: no-repeat !important;
+		background-position: 11px center !important;
+		background-size: 16px !important;
+		content: "";
+	}
+	#search-button-tabs .menu-icon {
+		fill: transparent !important;
+	}
+	
+	/* Search mode switcher - History icon */
+	#search-button-history[image="chrome://browser/skin/history.svg"], #search-button-history[image="chrome://browser/skin/history.svg"]:not([disabled="true"])[_moz-menuactive="true"] {
+		background-image: var(--gnome-icon-preferences-system-time-symbolic) !important;
+		background-repeat: no-repeat !important;
+		background-position: 11px center !important;
+		background-size: 16px !important;
+		content: "";
+	}
+	#search-button-history .menu-icon {
+		fill: transparent !important;
+	}
+
+	/* Search mode switcher - Actions icon */
+	#search-button-actions[image="chrome://browser/skin/quickactions.svg"], #search-button-actions[image="chrome://browser/skin/quickactions.svg"]:not([disabled="true"])[_moz-menuactive="true"] {
+		background-image: var(--gnome-icon-preferences-desktop-keyboard-symbolic) !important;
+		background-repeat: no-repeat !important;
+		background-position: 11px center !important;
+		background-size: 16px !important;
+		content: "";
+	}
+	#search-button-actions .menu-icon {
+		fill: transparent !important;
+	}
+
+	/* Search mode switcher - Settings icon */
+	#searchmode-switcher-popup-search-settings-button[image="chrome://global/skin/icons/settings.svg"], #searchmode-switcher-popup-search-settings-button[image="chrome://global/skin/icons/settings.svg"]:not([disabled="true"])[_moz-menuactive="true"] {
+		background-image: var(--gnome-icon-preferences-system-symbolic) !important;
+		background-repeat: no-repeat !important;
+		background-position: 11px center !important;
+		background-size: 16px !important;
+		content: "";
+	}
+	#searchmode-switcher-popup-search-settings-button .menu-icon {
+		fill: transparent !important;
 	}
 
 	/* Findbar */
