@@ -247,7 +247,7 @@ toolbarspring {
 }
 #urlbar-searchmode-switcher {
   background: var(--gnome-button-active-background) !important;
-  margin-inline-end: 0px !important;
+  margin-inline-end: 3px !important;
 }
 #searchmode-switcher-icon {
   margin-inline-end: 9px !important;

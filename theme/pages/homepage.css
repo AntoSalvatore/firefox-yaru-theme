@@ -84,3 +84,68 @@
     position: absolute;
   }
 }
+
+/* Shortcuts and Recent Activity */
+.compact-cards .card-outer .card-preview-image-outer {
+  margin: 15px !important;
+}
+.card-outer .card-preview-image-outer {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+.ds-highlights .section .section-list .card-outer {
+  height: 200px !important;
+}
+.collapsible-section {
+  padding: 10px 15px !important;
+}
+.card-outer {
+  background: var(--yaru-card-bg) !important;
+  border-radius: 0px !important;
+  border: 1px solid var(--yaru-card-border-color) !important;
+}
+.compact-cards .card-outer .card-details {
+  padding-top: 0 !important;
+}
+.shortcuts-refresh .top-site-outer {
+  border-radius: 0 !important;
+  border: 1px solid var(--yaru-card-border-color);
+  margin-inline: 5px !important;
+  background: var(--yaru-card-bg) !important;
+}
+.shortcuts-refresh .top-site-outer .tile {
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+.top-site-outer .tile {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+  margin: 0 !important;
+}
+.shortcuts-refresh .top-site-outer .top-site-button {
+  padding: 10px 16px 16px !important;
+}
+.shortcuts-refresh .top-site-outer .tile .icon-wrapper {
+  width: 48px !important;
+  height: 48px !important;
+}
+.shortcuts-refresh .top-site-outer .icon-pin-small {
+  inset-block-start: -0.812rem !important;
+  inset-inline-start: -1.812rem !important;
+}
+.icon.icon-pin-small {
+  background-size: 18px !important;
+  height: 18px !important;
+  width: 18px !important;
+}
+.discovery-stream.ds-layout {
+  margin-inline: -20px !important;
+}
+.collapsible-section[data-section-id="topsites"] .section-top-bar {
+  display: flex !important;
+}
+.collapsible-section {
+  padding: 10px 0px !important;
+}
+.top-sites > div > h2 {
+  visibility: visible !important;
+}

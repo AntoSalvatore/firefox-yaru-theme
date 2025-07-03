@@ -85,8 +85,10 @@
 		}
 		
 		/* Home and New Page */
-		--yaru-homepage-bg: #111;
+		--yaru-homepage-bg: #1d1d1d;
 		--yaru-banner-bg: #262626;
+		--yaru-card-bg: #222222;
+		--yaru-card-border-color: #282828;
 		--gnome-homepage-searchbar-background: #313131;
 		--gnome-homepage-searchbar-border-color: #939393;
 		
