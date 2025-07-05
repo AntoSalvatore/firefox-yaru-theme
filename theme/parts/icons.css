@@ -167,6 +167,7 @@ button.close::before {
 		background-size: contain;
 		width: 16px !important;
 		height: 16px !important;
+		opacity: .3 !important;
 	}
 
 	/* Popovers subview back button */
@@ -665,5 +666,11 @@ button.close::before {
 	/* Text clear */
 	.textbox-search-clear {
 		content: var(--gnome-icon-edit-clear-symbolic) !important;
+	}
+
+	/* Avatar */
+	#fxa-avatar-image {
+		min-height: 22px !important;
+		width: 22px !important;
 	}
 }

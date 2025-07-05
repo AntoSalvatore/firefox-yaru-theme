@@ -254,6 +254,13 @@ button.close {
 	display: none !important;
 }
 
+/* Restore button icon in Full Screen mode */
+@media not -moz-pref("gnomeTheme.noThemedIcons") {
+	:root[customtitlebar][inFullscreen] .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon {
+		background-image: unset !important;
+	}
+}
+
 /* OPTIONAL: Hide unified-extensions-button */
 @media -moz-pref("gnomeTheme.hideUnifiedExtensions") {
 	#unified-extensions-button {
